@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFE7A2E41D45A6E3004853B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7A2E31D45A6E3004853B7 /* AppDelegate.swift */; };
+		FFE7A2E61D45A6E3004853B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7A2E51D45A6E3004853B7 /* ViewController.swift */; };
+		FFE7A2E91D45A6E3004853B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE7A2E71D45A6E3004853B7 /* Main.storyboard */; };
+		FFE7A2EB1D45A6E3004853B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE7A2EA1D45A6E3004853B7 /* Assets.xcassets */; };
+		FFE7A2EE1D45A6E3004853B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE7A2EC1D45A6E3004853B7 /* LaunchScreen.storyboard */; };
+		FFE7A2F91D45A6E3004853B7 /* SwiftBackgammonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7A2F81D45A6E3004853B7 /* SwiftBackgammonTests.swift */; };
+		FFE7A3041D45A6E3004853B7 /* SwiftBackgammonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7A3031D45A6E3004853B7 /* SwiftBackgammonUITests.swift */; };
+		FFE7A3121D45C253004853B7 /* dotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7A3111D45C253004853B7 /* dotView.swift */; };
+		FFE7A3141D45F6E3004853B7 /* Referee.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7A3131D45F6E3004853B7 /* Referee.swift */; };
+		FFE7A3191D474F84004853B7 /* AnimatedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7A3181D474F84004853B7 /* AnimatedLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFE7A2F51D45A6E3004853B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE7A2D81D45A6E3004853B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE7A2DF1D45A6E3004853B7;
+			remoteInfo = SwiftBackgammon;
+		};
+		FFE7A3001D45A6E3004853B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFE7A2D81D45A6E3004853B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE7A2DF1D45A6E3004853B7;
+			remoteInfo = SwiftBackgammon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFE7A2E01D45A6E3004853B7 /* SwiftBackgammon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBackgammon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE7A2E31D45A6E3004853B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFE7A2E51D45A6E3004853B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFE7A2E81D45A6E3004853B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFE7A2EA1D45A6E3004853B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFE7A2ED1D45A6E3004853B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFE7A2EF1D45A6E3004853B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE7A2F41D45A6E3004853B7 /* SwiftBackgammonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBackgammonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE7A2F81D45A6E3004853B7 /* SwiftBackgammonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBackgammonTests.swift; sourceTree = "<group>"; };
+		FFE7A2FA1D45A6E3004853B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE7A2FF1D45A6E3004853B7 /* SwiftBackgammonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBackgammonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE7A3031D45A6E3004853B7 /* SwiftBackgammonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBackgammonUITests.swift; sourceTree = "<group>"; };
+		FFE7A3051D45A6E3004853B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE7A3111D45C253004853B7 /* dotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dotView.swift; sourceTree = "<group>"; };
+		FFE7A3131D45F6E3004853B7 /* Referee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Referee.swift; sourceTree = "<group>"; };
+		FFE7A3181D474F84004853B7 /* AnimatedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatedLabel.swift; path = ../AnimatedLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFE7A2DD1D45A6E3004853B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE7A2F11D45A6E3004853B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE7A2FC1D45A6E3004853B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFE7A2D71D45A6E3004853B7 = {
+			isa = PBXGroup;
+			children = (
+				FFE7A2E21D45A6E3004853B7 /* SwiftBackgammon */,
+				FFE7A2F71D45A6E3004853B7 /* SwiftBackgammonTests */,
+				FFE7A3021D45A6E3004853B7 /* SwiftBackgammonUITests */,
+				FFE7A2E11D45A6E3004853B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFE7A2E11D45A6E3004853B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE7A2E01D45A6E3004853B7 /* SwiftBackgammon.app */,
+				FFE7A2F41D45A6E3004853B7 /* SwiftBackgammonTests.xctest */,
+				FFE7A2FF1D45A6E3004853B7 /* SwiftBackgammonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE7A2E21D45A6E3004853B7 /* SwiftBackgammon */ = {
+			isa = PBXGroup;
+			children = (
+				FFE7A2E31D45A6E3004853B7 /* AppDelegate.swift */,
+				FFE7A2E51D45A6E3004853B7 /* ViewController.swift */,
+				FFE7A3111D45C253004853B7 /* dotView.swift */,
+				FFE7A3131D45F6E3004853B7 /* Referee.swift */,
+				FFE7A3181D474F84004853B7 /* AnimatedLabel.swift */,
+				FFE7A2E71D45A6E3004853B7 /* Main.storyboard */,
+				FFE7A2EA1D45A6E3004853B7 /* Assets.xcassets */,
+				FFE7A2EC1D45A6E3004853B7 /* LaunchScreen.storyboard */,
+				FFE7A2EF1D45A6E3004853B7 /* Info.plist */,
+			);
+			path = SwiftBackgammon;
+			sourceTree = "<group>";
+		};
+		FFE7A2F71D45A6E3004853B7 /* SwiftBackgammonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE7A2F81D45A6E3004853B7 /* SwiftBackgammonTests.swift */,
+				FFE7A2FA1D45A6E3004853B7 /* Info.plist */,
+			);
+			path = SwiftBackgammonTests;
+			sourceTree = "<group>";
+		};
+		FFE7A3021D45A6E3004853B7 /* SwiftBackgammonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE7A3031D45A6E3004853B7 /* SwiftBackgammonUITests.swift */,
+				FFE7A3051D45A6E3004853B7 /* Info.plist */,
+			);
+			path = SwiftBackgammonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFE7A2DF1D45A6E3004853B7 /* SwiftBackgammon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE7A3081D45A6E3004853B7 /* Build configuration list for PBXNativeTarget "SwiftBackgammon" */;
+			buildPhases = (
+				FFE7A2DC1D45A6E3004853B7 /* Sources */,
+				FFE7A2DD1D45A6E3004853B7 /* Frameworks */,
+				FFE7A2DE1D45A6E3004853B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftBackgammon;
+			productName = SwiftBackgammon;
+			productReference = FFE7A2E01D45A6E3004853B7 /* SwiftBackgammon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFE7A2F31D45A6E3004853B7 /* SwiftBackgammonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE7A30B1D45A6E3004853B7 /* Build configuration list for PBXNativeTarget "SwiftBackgammonTests" */;
+			buildPhases = (
+				FFE7A2F01D45A6E3004853B7 /* Sources */,
+				FFE7A2F11D45A6E3004853B7 /* Frameworks */,
+				FFE7A2F21D45A6E3004853B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE7A2F61D45A6E3004853B7 /* PBXTargetDependency */,
+			);
+			name = SwiftBackgammonTests;
+			productName = SwiftBackgammonTests;
+			productReference = FFE7A2F41D45A6E3004853B7 /* SwiftBackgammonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFE7A2FE1D45A6E3004853B7 /* SwiftBackgammonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE7A30E1D45A6E3004853B7 /* Build configuration list for PBXNativeTarget "SwiftBackgammonUITests" */;
+			buildPhases = (
+				FFE7A2FB1D45A6E3004853B7 /* Sources */,
+				FFE7A2FC1D45A6E3004853B7 /* Frameworks */,
+				FFE7A2FD1D45A6E3004853B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE7A3011D45A6E3004853B7 /* PBXTargetDependency */,
+			);
+			name = SwiftBackgammonUITests;
+			productName = SwiftBackgammonUITests;
+			productReference = FFE7A2FF1D45A6E3004853B7 /* SwiftBackgammonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFE7A2D81D45A6E3004853B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Cheng;
+				TargetAttributes = {
+					FFE7A2DF1D45A6E3004853B7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KGYUUJ3R7U;
+						LastSwiftMigration = 0800;
+					};
+					FFE7A2F31D45A6E3004853B7 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = FFE7A2DF1D45A6E3004853B7;
+					};
+					FFE7A2FE1D45A6E3004853B7 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = FFE7A2DF1D45A6E3004853B7;
+					};
+				};
+			};
+			buildConfigurationList = FFE7A2DB1D45A6E3004853B7 /* Build configuration list for PBXProject "SwiftBackgammon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFE7A2D71D45A6E3004853B7;
+			productRefGroup = FFE7A2E11D45A6E3004853B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFE7A2DF1D45A6E3004853B7 /* SwiftBackgammon */,
+				FFE7A2F31D45A6E3004853B7 /* SwiftBackgammonTests */,
+				FFE7A2FE1D45A6E3004853B7 /* SwiftBackgammonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFE7A2DE1D45A6E3004853B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE7A2EE1D45A6E3004853B7 /* LaunchScreen.storyboard in Resources */,
+				FFE7A2EB1D45A6E3004853B7 /* Assets.xcassets in Resources */,
+				FFE7A2E91D45A6E3004853B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE7A2F21D45A6E3004853B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE7A2FD1D45A6E3004853B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFE7A2DC1D45A6E3004853B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE7A3191D474F84004853B7 /* AnimatedLabel.swift in Sources */,
+				FFE7A3121D45C253004853B7 /* dotView.swift in Sources */,
+				FFE7A2E61D45A6E3004853B7 /* ViewController.swift in Sources */,
+				FFE7A3141D45F6E3004853B7 /* Referee.swift in Sources */,
+				FFE7A2E41D45A6E3004853B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE7A2F01D45A6E3004853B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE7A2F91D45A6E3004853B7 /* SwiftBackgammonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE7A2FB1D45A6E3004853B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE7A3041D45A6E3004853B7 /* SwiftBackgammonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFE7A2F61D45A6E3004853B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFE7A2DF1D45A6E3004853B7 /* SwiftBackgammon */;
+			targetProxy = FFE7A2F51D45A6E3004853B7 /* PBXContainerItemProxy */;
+		};
+		FFE7A3011D45A6E3004853B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFE7A2DF1D45A6E3004853B7 /* SwiftBackgammon */;
+			targetProxy = FFE7A3001D45A6E3004853B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFE7A2E71D45A6E3004853B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE7A2E81D45A6E3004853B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFE7A2EC1D45A6E3004853B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE7A2ED1D45A6E3004853B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFE7A3061D45A6E3004853B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFE7A3071D45A6E3004853B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFE7A3091D45A6E3004853B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KGYUUJ3R7U;
+				INFOPLIST_FILE = SwiftBackgammon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.careTek.SwiftBackgammon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FFE7A30A1D45A6E3004853B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KGYUUJ3R7U;
+				INFOPLIST_FILE = SwiftBackgammon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.careTek.SwiftBackgammon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FFE7A30C1D45A6E3004853B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftBackgammonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.careTek.SwiftBackgammonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBackgammon.app/SwiftBackgammon";
+			};
+			name = Debug;
+		};
+		FFE7A30D1D45A6E3004853B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftBackgammonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.careTek.SwiftBackgammonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBackgammon.app/SwiftBackgammon";
+			};
+			name = Release;
+		};
+		FFE7A30F1D45A6E3004853B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftBackgammonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.careTek.SwiftBackgammonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftBackgammon;
+			};
+			name = Debug;
+		};
+		FFE7A3101D45A6E3004853B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftBackgammonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.careTek.SwiftBackgammonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftBackgammon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFE7A2DB1D45A6E3004853B7 /* Build configuration list for PBXProject "SwiftBackgammon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE7A3061D45A6E3004853B7 /* Debug */,
+				FFE7A3071D45A6E3004853B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE7A3081D45A6E3004853B7 /* Build configuration list for PBXNativeTarget "SwiftBackgammon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE7A3091D45A6E3004853B7 /* Debug */,
+				FFE7A30A1D45A6E3004853B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE7A30B1D45A6E3004853B7 /* Build configuration list for PBXNativeTarget "SwiftBackgammonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE7A30C1D45A6E3004853B7 /* Debug */,
+				FFE7A30D1D45A6E3004853B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE7A30E1D45A6E3004853B7 /* Build configuration list for PBXNativeTarget "SwiftBackgammonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE7A30F1D45A6E3004853B7 /* Debug */,
+				FFE7A3101D45A6E3004853B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFE7A2D81D45A6E3004853B7 /* Project object */;
+}
